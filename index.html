@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu deroulant</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<header class="header">
+<a href="#" class="logo"> <i class='bx bxs-t-shirt'></i> Adidas</a>
+<nav>
+<ul class="navbar">
+      <li><a href="#home">home</a></li>
+      <li><a href="#new">new arrivals</a></li>
+      <li><a href="#product">product</a></li>
+      <li><a href="#reviews">reviews</a></li>
+</ul>
+</nav>
+<div class="header-icons">      
+   
+    <i class="bx bx-menu " id="menu-icon"></i>
+    <i class="bx bx-search" id="search-icon"></i>
+    <i class="bx bx-cart-alt" id="cart-icon"></i>
+    <i class="bx bx-user" id="user-icon"></i>
+</div>
+<div class="search-box">
+    <input type="search" name="" id="" placeholder="search her...">
+</div>
+             <div class="cart">
+                <h2 class="cart-title">your cart</h2>
+                <div class="cart-content">
+                 <div class="box">
+    <img src="media/imag11.png" alt="">
+                       <div class="text">
+                                <div class="cart-price"> $350</div>
+                      <input type="number" value="1" class="cart-quantity">
+                       </div>
+                     <i class="bx bxs-trash-alt cart-remove" ></i>
+                    </div>
+        
+                </div>
+
+    <div class="total">
+        <div class="totale-title">Totale</div>
+    <div class="total-price">$0</div>
+</div>
+<button type="button" class="btn-buy" onclick = "document.write(6*9)"> Buy Now</button>
+<i class="bx bx-x" id="close-cart"></i>
+     <a href="#" class="btn">Checkout</a>
+ </div>
+        
+<div class="user">  
+            <h2>login now</h2>
+            <input type="email" placeholder="your email">
+            <input type="password" name="" id="" placeholder="password">
+            <input type="submit" value="login" class="login-btn">
+            <p>forget your password<a href="reset now"></a></p>
+            <p> don't have account <a href="">create one</a></p>
+</div>
+
+          </header>
+      <section class="home" id="home">
+        <div class="home-text">
+            <span>SHOP NOW</span>
+            <h1>new arrivals of <br> fresh product</h1>
+            <a href="#" class="btn"> shop now</a>
+        </div>
+        <div class="home-img">
+            <img src="media/imag10.png" alt="#">
+        </div>
+      </section>
+
+<section class="new" id="new">
+<div class="heading">
+    <h1>NEW <span>Arrivals</span></h1>
+</div>
+<div class="swiper new-arrival">
+    <div class="swiper-wrapper">
+ <div class="swiper-slide box">
+    <h3>nike</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/4101ddfd660e3096a9b51c6821a8b71c/1c4cecf0219a4022aae4a6b9f5430a93.jpg?imwidth=762&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>nouveau</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/d17f0b114e234c149f5bb54fc3af24c2/49bcbeff43b44d409295d1c11ddd3b64.jpg?imwidth=300&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>timberlland</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/3805605573704d0584518be6d5781e5e/759fc1a14d9b489791aaa66916352459.jpg?imwidth=1800&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>adidas</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/cf3df4b074e43a7a9e9d7dcae7249809/8874ccec68e94683a3df1e665428e787.jpg?imwidth=1800" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>back</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/39c057e89bd0487aa894e85d009d15df/43eacb8381ae4679bab51382391cb3dc.jpg?imwidth=300&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>vans</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/d02b109b2c514fe49510da90b63f2fcf/a47c74afcead44488cbd5f5911b65c3e.jpg?imwidth=1800" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>Martens</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/bbc2043ebb9a36bfa871fef339d8d939/3ca9c39f49e54514b201b0ab26a9dc71.jpg?imwidth=762&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>Mamzelle</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/070f1f988aff3397a826c30841280218/e8881fcf26b54d7f8a6ec2a49049b9b1.jpg?imwidth=1800&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <img src="https://img01.ztat.net/article/spp-media-p1/001084cb2eb44c2f9e168f702d51cdc0/c07bde42ee594075a449efbdc8138ef2.jpg?imwidth=762&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>Reebok</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/66d2793d05463af5bf37efe1b5a6fb3c/d34981ce6a8f419491b8f44b406ffa73.jpg?imwidth=762&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>Diadora</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/12ffbd412624489cade33eb284c270ae/57999ffcbac942018ac36dda753ad71d.jpg?imwidth=300&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+<div class="swiper-slide box">
+    <h3>Sebago</h3>
+    <img src="https://img01.ztat.net/article/spp-media-p1/d8a6c38d06dd45c59b34ad4e08e27765/430c811bff3a4fb38a2629849cbb9ac8.jpg?imwidth=300&filter=packshot" alt="#">
+ <div class="content">
+    <a href="#" class="btn">Buy Now</a>
+ </div>
+</div>
+    </div>
+</div>
+
+
+</section>
+
+<section class="product" id="product">
+<div class="heading">
+    <h1>Our <span>products</span></h1>
+</div>
+<div class="product-container">
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUvlpFhIw0zNiunJoY7WygEJA5Y1bAPj6xtw&usqp=CAU" alt="#">
+        <div class="content">
+            <h2>shoes 140A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="https://sn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/51711/1.jpg?3212" alt="">
+        <div class="content">
+            <h2>shoes 14Aa</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="https://schuhetaschen.com/wp-content/uploads/2018/06/91356-10.jpg" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="http://cdn.shopify.com/s/files/1/0638/9304/5484/products/CHA345AR_1_1024x1024.jpg?v=1670608926" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZZuNjh5PvThwEg5hX-cVw3e4hlBTBB_s40A&usqp=CAU" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://www.bexley.fr/fstrz/r/s/www.bexley.fr/media/wysiwyg/guides-produits/chaussures/chaussure-homme-chelsea-boot-bexley.jpg?frz-v=89" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="https://anitashoes.fbitsstatic.net/img/p/sapato-social-democrata-preto-238809-73285/275969-3.jpg?w=800&h=800&v=202104062150" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+    <div class="box">
+        <img src="https://th.bing.com/th/id/R.23f214f4ef5c1b20df80519e4a063da6?rik=ALCo6vTB5U2vAQ&riu=http%3a%2f%2fwww.boutiquemode.net%2fpublic%2fimg%2fbig%2fchaussures-grises-lacet-daim-interieur-cuir-homme.jpg&ehk=UTCxJIPqMVp6XR7s9UKyQd%2fSnPvHbxGluHFOrU8GHRM%3d&risl=&pid=ImgRaw&r=0" alt="#">
+        <div class="content">
+            <h2>shoes 14A</h2>
+            <div class="start">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <span>$50.05</span>
+            <i class="bx bx-cart-alt"></i>
+        </div>
+    </div> 
+</div>
+
+</section>
+<section class="reviews" id="reviews">
+<div class="heading">
+    <h1>our <span>chaussure</span></h1>
+</div>
+<div class="reviews-container">
+    <div class="box">
+        <img src="https://www.cdiscount.com/pdt2/8/3/6/1/700x700/mp25695836/rw/chaussure-homme-cuir-derby-mariage-dressing-busine.jpg" alt="">
+        <div class="start">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipis</p>
+    <h2>will smith</h2>
+    </div>
+<div class="box">
+    <img src="https://www.lahalle.com/dw/image/v2/BCHM_PRD/on/demandware.static/-/Sites-lahalle_master/default/dw088eb40f/mules-avec-boucles-en-cuir-goaleres-marron-homme-fp-36165600782971055.jpg?sw=300&sh=400" alt="">
+    <div class="start">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star-half"></i>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipis</p>
+<h2>will smith</h2>
+</div>
+<div class="box">
+    <img src="https://www.cdiscount.com/pdt2/8/3/6/1/700x700/mp25695836/rw/chaussure-homme-cuir-derby-mariage-dressing-busine.jpg" alt="">
+    <div class="start">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star-half"></i>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipis</p>
+<h2>will smith</h2>
+</div>
+<div class="box">
+    <img src="https://www.cdiscount.com/pdt2/0/7/1/1/700x700/mp18416071/rw/zencart-hommes-robe-chaussures-hommes-formelle-cha.jpg" alt="">
+    <div class="start">
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star"></i>
+        <i class="bx bxs-star-half"></i>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipis</p>
+<h2>will smith</h2>
+</div>
+</section>
+<section class="footer">
+    <div class="footer-box">
+<h2>Adidas</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptatem.</p>
+    <div class="social">
+        <a href=""> <i class="bx bxl-facebook"></i></a>
+    <a href=""><i class="bx bxl-twitter"></i></a>
+    <a href=""><i class="bx bxl-instagram"></i></a>
+    <a href="#"><i class="bx bxl-tiktok"></i></a>
+    </div>
+</div>
+
+
+<div class="footer-box">
+    <h3> Our branches</h3>
+    <li><a href="">senegal</a></li>
+    <li><a href="">Canada</a></li>
+    <li><a href="">france</a></li>
+    <li><a href="">maroc</a></li>
+    <li><a href="">espagne</a></li>
+</div>
+<div class="footer-box">
+    <h3>Methodes pays</h3>
+    <div class="pay">
+          <img src= "data:image/jpeg;base64,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" alt="">
+        <img src="https://www.banque.sn/wp-content/uploads/2021/09/wave.png" alt="">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.au-senegal.com%2Fmoney-express%2C5407.html&psig=AOvVaw34yQRS8q6itVQg4M0gPYte&ust=1682455341107000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLi3ztqww_4CFQAAAAAdAAAAABAE" alt="">
+        <img src="https://paydunya.com/refont/images/icon_pydu/partners/om.png" alt="">
+        <img src="data:image/png;base64,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" alt="">
+    </div>
+</div>
+
+</section>
+<div class="copyright">
+    <p>&#169,merci de passer vos commandes.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://upnkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
